@@ -1,0 +1,33 @@
+{
+  "name": "ionos-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for IONOS APIs",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "start": "node build/index.js",
+    "dev": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ionos",
+    "dns",
+    "domains",
+    "ssl",
+    "mcp",
+    "model-context-protocol"
+  ],
+  "author": "Frank Perez - The Blue View Group Inc. (blueview.ai)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blue-View-Ai/ionos-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.4",
+    "@types/node": "^22.15.18",
+    "axios": "^1.9.0",
+    "typescript": "^5.8.3"
+  }
+}
