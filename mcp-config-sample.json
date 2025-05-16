@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "ionos": {
+      "command": "node",
+      "args": ["./build/index.js"],
+      "env": {
+        "IONOS_API_KEY": "your-ionos-api-key"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
